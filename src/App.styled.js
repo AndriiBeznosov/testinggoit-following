@@ -7,5 +7,5 @@ export const Wrapper = styled.div`
   padding: 30px;
   width: 100%;
   height: 100%;
-  background-color: rgb(30, 66, 0);
+  background-color: rgb(30, 66, 88);
 `;

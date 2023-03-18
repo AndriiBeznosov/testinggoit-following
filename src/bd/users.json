@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "user": "JohnDoe",
+    "tweets": 777,
+    "followers": 100500,
+    "avatar": "JohnDoe.png"
+  },
+  {
+    "id": 2,
+    "user": "JaneSmith",
+    "tweets": 777,
+    "followers": 100200,
+    "avatar": "JaneSmith.png"
+  },
+  {
+    "id": 3,
+    "user": "BobJohnson",
+    "tweets": 777,
+    "followers": 100300,
+    "avatar": "BobJohnson.png"
+  },
+  {
+    "id": 4,
+    "user": "SamanthaLee",
+    "tweets": 777,
+    "followers": 100100,
+    "avatar": "SamanthaLee.png"
+  },
+  {
+    "id": 5,
+    "user": "MichaelKim",
+    "tweets": 777,
+    "followers": 100340,
+    "avatar": "MichaelKim.png"
+  },
+  {
+    "id": 6,
+    "user": "EmilyChen",
+    "tweets": 777,
+    "followers": 100350,
+    "avatar": "EmilyChen.png"
+  },
+  {
+    "id": 7,
+    "user": "DavidWang",
+    "tweets": 777,
+    "followers": 100230,
+    "avatar": "DavidWang.png"
+  },
+  {
+    "id": 8,
+    "user": "TomSank",
+    "tweets": 777,
+    "followers": 100160,
+    "avatar": "TomSank.png"
+  },
+  {
+    "id": 9,
+    "user": "TomBrown",
+    "tweets": 777,
+    "followers": 100170,
+    "avatar": "TomBrown.png"
+  },
+  {
+    "id": 10,
+    "user": "MeganDavis",
+    "tweets": 777,
+    "followers": 100490,
+    "avatar": "MeganDavis.png"
+  }
+]
