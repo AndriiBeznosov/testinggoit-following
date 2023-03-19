@@ -1,5 +1,9 @@
-import { Item } from "./Button.stuled";
+import { Item } from './Button.stuled';
 
-export const Button = () => {
-  return <Item type="button">Follow</Item>;
+export const Button = ({ onClick, text, activButton }) => {
+  return (
+    <Item type="button" onClick={onClick} activ={activButton}>
+      {text}
+    </Item>
+  );
 };

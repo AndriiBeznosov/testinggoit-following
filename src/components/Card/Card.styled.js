@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+export const Item = styled.li`
   max-width: 380px;
   width: 380px;
   height: 460px;
@@ -14,6 +14,31 @@ export const Wrapper = styled.div`
   box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
   border-radius: 20px;
   margin: 15px;
+  transition: box-shadow 300ms ease;
+
+  animation-name: cardAnimation;
+  animation-fill-mode: forwards;
+  animation-duration: 1500ms;
+  animation-timing-function: linear;
+  @keyframes cardAnimation {
+    0% {
+      opacity: 0;
+      transform: scale(0.5) rotateY(90deg);
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 1;
+      transform: scale(1) rotateY(0deg);
+    }
+  }
+
+  &:hover {
+    box-shadow: -3px 7px 20px rgba(255, 255, 255, 0.3);
+  }
 `;
 
 export const Container1 = styled.div`
