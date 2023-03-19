@@ -14,7 +14,7 @@ export const Item = styled.li`
   box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
   border-radius: 20px;
   margin: 15px;
-  transition: box-shadow 300ms ease;
+  transition: box-shadow ${p => p.theme.transition};
 
   animation-name: cardAnimation;
   animation-fill-mode: forwards;
@@ -54,7 +54,6 @@ export const Container1 = styled.div`
     left: 20px;
     width: 76px;
     height: 22px;
-
     background-image: url(${p => p.logo});
   }
 `;
@@ -63,7 +62,7 @@ export const Container2 = styled.div`
   position: relative;
   width: 100%;
   height: 8px;
-  background: #ebd8ff;
+  background: ${p => p.theme.color.cardBg};
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
     inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
 
@@ -99,7 +98,7 @@ export const Container3 = styled.div`
     font-size: 20px;
     line-height: 24px;
     text-transform: uppercase;
-    color: #ebd8ff;
+    color: ${p => p.theme.color.textCard};
     margin-bottom: 16px;
   }
   p {
@@ -109,7 +108,7 @@ export const Container3 = styled.div`
     font-size: 20px;
     line-height: 24px;
     text-transform: uppercase;
-    color: #ebd8ff;
+    color: ${p => p.theme.color.textCard};
     margin-bottom: 26px;
   }
 `;
