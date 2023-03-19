@@ -1,3 +1,5 @@
+import { PropTypes } from 'prop-types';
+
 import { Button } from '../Button/Button';
 import { Container1, Image, Container2, Container3, Item } from './Card.styled';
 import logo from '../../image/Logo.png';
@@ -55,4 +57,12 @@ export const Card = ({ tweets, user, avatar, followers, id }) => {
       </Container3>
     </Item>
   );
+};
+
+Card.propTypes = {
+  tweets: PropTypes.number.isRequired,
+  user: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  followers: PropTypes.number.isRequired,
+  id: PropTypes.number.isRequired,
 };
