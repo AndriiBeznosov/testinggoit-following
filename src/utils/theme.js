@@ -1,6 +1,6 @@
 export const theme = {
   color: {
-    mainBgColor: 'rgb(255, 0, 0)',
+    mainBgColor: 'rgb(30, 66, 88)',
     buttonAction: '#5CD3A8',
     bgButton: '#EBD8FF',
     text: '#373737',
