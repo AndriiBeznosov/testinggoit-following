@@ -1,6 +1,6 @@
 ## Template card Tweets
 
-Цей проект було створено за допомогою
+Цей проєкт було створено за допомогою
 [Create React App](https://github.com/facebook/create-react-app).
 
 #
@@ -13,5 +13,5 @@
 Для ознайомлення з web-сторінкою перейдіть за посиланням
 (https://testinggoit-following.netlify.app/)
 
-- Проет був розміщеней на безкоштовному хостингу [netlify]
+- Проект був розміщений на безкоштовному хостингу [netlify]
 - (https://www.netlify.com)
