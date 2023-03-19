@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/testinggoit-following/static/css/main.95c15896.css",
-    "main.js": "/testinggoit-following/static/js/main.cdc1e72b.js",
-    "static/media/picture1.png": "/testinggoit-following/static/media/picture1.032662a2a907475127d7.png",
-    "static/media/JaneSmith.png": "/testinggoit-following/static/media/JaneSmith.1e2e297aabb71d623012.png",
-    "static/media/MeganDavis.png": "/testinggoit-following/static/media/MeganDavis.dd9beca2c9755ce1a0dd.png",
-    "static/media/SamanthaLee.png": "/testinggoit-following/static/media/SamanthaLee.6c8ae21f2608b2dfd60a.png",
-    "static/media/DavidWang.png": "/testinggoit-following/static/media/DavidWang.0a8f37f72169417f1ff2.png",
-    "static/media/EmilyChen.png": "/testinggoit-following/static/media/EmilyChen.f4b59d1ffe7225e121a0.png",
-    "static/media/BobJohnson.png": "/testinggoit-following/static/media/BobJohnson.dd4317e2e821cf1e85e2.png",
-    "static/media/TomBrown.png": "/testinggoit-following/static/media/TomBrown.6327783716b49369573f.png",
-    "static/media/TomSank.png": "/testinggoit-following/static/media/TomSank.f454bcee7877a54425e0.png",
-    "static/media/MichaelKim.png": "/testinggoit-following/static/media/MichaelKim.da1c368911d821e2e93e.png",
-    "static/media/JohnDoe.png": "/testinggoit-following/static/media/JohnDoe.42d232aa3c19f8012004.png",
-    "index.html": "/testinggoit-following/index.html",
-    "main.95c15896.css.map": "/testinggoit-following/static/css/main.95c15896.css.map",
-    "main.cdc1e72b.js.map": "/testinggoit-following/static/js/main.cdc1e72b.js.map"
+    "main.css": "/static/css/main.95c15896.css",
+    "main.js": "/static/js/main.e3ed6c7f.js",
+    "static/media/picture1.png": "/static/media/picture1.032662a2a907475127d7.png",
+    "static/media/JaneSmith.png": "/static/media/JaneSmith.1e2e297aabb71d623012.png",
+    "static/media/MeganDavis.png": "/static/media/MeganDavis.dd9beca2c9755ce1a0dd.png",
+    "static/media/SamanthaLee.png": "/static/media/SamanthaLee.6c8ae21f2608b2dfd60a.png",
+    "static/media/DavidWang.png": "/static/media/DavidWang.0a8f37f72169417f1ff2.png",
+    "static/media/EmilyChen.png": "/static/media/EmilyChen.f4b59d1ffe7225e121a0.png",
+    "static/media/BobJohnson.png": "/static/media/BobJohnson.dd4317e2e821cf1e85e2.png",
+    "static/media/TomBrown.png": "/static/media/TomBrown.6327783716b49369573f.png",
+    "static/media/TomSank.png": "/static/media/TomSank.f454bcee7877a54425e0.png",
+    "static/media/MichaelKim.png": "/static/media/MichaelKim.da1c368911d821e2e93e.png",
+    "static/media/JohnDoe.png": "/static/media/JohnDoe.42d232aa3c19f8012004.png",
+    "index.html": "/index.html",
+    "main.95c15896.css.map": "/static/css/main.95c15896.css.map",
+    "main.e3ed6c7f.js.map": "/static/js/main.e3ed6c7f.js.map"
   },
   "entrypoints": [
     "static/css/main.95c15896.css",
-    "static/js/main.cdc1e72b.js"
+    "static/js/main.e3ed6c7f.js"
   ]
 }
