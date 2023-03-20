@@ -1,7 +1,7 @@
 import { PropTypes } from 'prop-types';
 
 import { Button } from '../Button/Button';
-import { Container1, Image, Container2, Container3, Item } from './Card.styled';
+import { Container1, Container2, Container3, Item } from './Card.styled';
 import logo from '../../image/Logo.png';
 import lopicture1 from '../../image/picture1.png';
 import { useState } from 'react';
@@ -36,9 +36,7 @@ export const Card = ({ tweets, user, avatar, followers, id }) => {
 
   return (
     <Item>
-      <Container1 logo={logo}>
-        <Image src={lopicture1} />
-      </Container1>
+      <Container1 logo={logo} src={lopicture1}></Container1>
       <Container2>
         <img src={require(`../../image/${avatar}`)} alt={user} />
       </Container2>

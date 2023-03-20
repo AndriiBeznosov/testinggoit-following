@@ -46,6 +46,10 @@ export const Container1 = styled.div`
   width: 100%;
   padding-top: 28px;
   padding-bottom: 18px;
+  height: 214px;
+  background-image: url(${p => p.src});
+  background-repeat: no-repeat;
+  background-position: center;
   &::before {
     content: '';
     display: block;
@@ -74,13 +78,6 @@ export const Container2 = styled.div`
     width: 80px;
     height: 80px;
   }
-`;
-
-export const Image = styled.img`
-  display: block;
-  width: 308px;
-  height: 168px;
-  margin: 0 auto;
 `;
 
 export const Container3 = styled.div`
