@@ -16,6 +16,7 @@ export const Card = ({ tweets, user, avatar, followers, id }) => {
   const [textButton, settextButton] = useState(Boolean(storage));
 
   const str = storage ?? numberFollowers;
+
   const num = parseInt(str).toLocaleString('uk-UA');
   const formattedNum = num.replace(/\s/g, ',');
 
